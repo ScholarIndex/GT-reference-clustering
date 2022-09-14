@@ -4,6 +4,8 @@ This repository contains a small dataset of ground truth data to evaluate refere
 
 These reference pairs were sampled from all clusters of LB references, trying to represent clusters of different sizes. The cluster size can be derived from values in the column `cluster_file` as it is coded in the integer preceding the `_` character.
 
+The dataset is contained in the file `data/dataset.tsv`, obtained by concatenating (and filtering columns) the `.tsv` files in `data/partials/*.tsv` (see [notebook](./concatenate-csv-partials.ipynb)).
+
 Some stats:
 - total number of reference pairs: 3638
 - number of positive ref. pairs (`same-bibl-entity` == 1): 749
