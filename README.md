@@ -1,5 +1,8 @@
 # Ground truth data for bibliographic reference clustering
 
+[![DOI](https://zenodo.org/badge/536516252.svg)](https://zenodo.org/badge/latestdoi/536516252)
+
+
 This repository contains a small dataset of ground truth data to evaluate reference clustering algorithms. It consists of pairs of references (`ref`, `seed_ref`), with a ground truth value (`same-bibl-entity`) indicating whether the two references in the pair are referring to the same bibliographic entity or not (`1` = true, `0` = false, `0.5` = partly). 
 
 These reference pairs were sampled from all clusters of LB references, trying to represent clusters of different sizes. The cluster size can be derived from values in the column `cluster_file` as it is coded in the integer preceding the `_` character.
